@@ -204,6 +204,7 @@ resource exampleSimGroupResource 'Microsoft.MobileNetwork/simGroups@2022-04-01-p
   properties: {
     mobileNetwork: {
       id: exampleMobileNetwork.id
+    }
     encryptionKey: {
         keyUrl: existingEncryptionKeyUrl
     }
